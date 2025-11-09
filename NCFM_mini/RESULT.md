@@ -127,15 +127,6 @@
 - **分布差异检测**: NCFM复数空间对齐最敏感
 - **稳定性要求**: NCFM幅度对齐表现最稳定
 
-## 文件清单
-- `ncfm_complete_experiment.py` - 实验主脚本
-- `results/complete_experiment_results.json` - 定量结果
-- `results/ncfm_distributions.png` - 分布可视化
-- `results/ncfm_comparison_chart.png` - 场景柱状图
-- `results/ncfm_comprehensive_results.png` - 综合对比图
-- `results/decision_boundaries.png` - 决策边界可视化
-- `results/distribution_reconstruction.png` - 重构误差图
-
 ## 实验复现
 ```bash
-python ncfm_complete_experiment.py
+NCFM_mini.py
